@@ -1,0 +1,16 @@
+@import "abstract/normalize";
+@import "abstract/variables";
+@import "abstract/typography";
+@import "abstract/base";
+
+@import "layout/navbar";
+@import "layout/footer";
+@import "layout/page";
+@import "layout/template_publicacao";
+
+@import "components/card";
+@import "components/button";
+@import "components/input";
+@import "components/util";
+
+@import "pages/main";

@@ -1,0 +1,60 @@
+footer {
+  height: $footer-height;
+  background-color: $footer-color;
+  padding: 4rem 5rem 2rem 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  h1, h2, span {
+    color: $color-white;
+  }
+
+  .first-part {
+    h1 {
+      font-size: 4rem;
+      line-height: 0;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      font-weight: lighter;
+    }
+
+  }
+
+  .second-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    .links {
+      position: relative;
+      bottom: -1.8rem;
+      a {
+        margin-right: 1.2rem;
+        color: $color-white;
+        font-size: 1.2rem;
+        text-decoration: underline;
+      }
+    }
+
+    .comentario {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+
+      span {
+        font-size: 1.4em;
+      }
+
+
+      i {
+        font-size: 1.8rem;
+        color: $color-red;
+        margin: 0 .5rem;
+      }
+    }
+  }
+
+}
+

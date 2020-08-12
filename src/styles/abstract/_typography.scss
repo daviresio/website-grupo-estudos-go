@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee:400,400i&display=swap');
+
+body {
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  color: $font-color;
+
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+pre {
+  margin: 3rem 0;
+  code {
+    font-size: 1.2rem;
+  }
+
+}
